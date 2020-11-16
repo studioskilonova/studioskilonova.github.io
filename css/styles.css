@@ -10146,16 +10146,24 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #e96b00;
+  }
+  header.masthead .masthead-subheading2 {
+    font-size: 2.00rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.0rem;
+    font-size: 4.00rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    color: #e96b00;
   }
 }
 #portfolio .portfolio-item {
