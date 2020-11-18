@@ -9846,6 +9846,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #6c757d !important;
 }
 
+.text-muted2 {
+  color: #e96b00 !important;
+}
+
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -10184,7 +10188,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(233,107,0, 0.8);
   align-items: center;
   justify-content: center;
   opacity: 0;
