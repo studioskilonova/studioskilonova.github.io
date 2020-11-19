@@ -5808,6 +5808,10 @@ a.close.disabled {
   position: relative;
 }
 
+.carousel-item .img-fluid {
+  width:100%;
+}
+
 .carousel.pointer-event {
   touch-action: pan-y;
 }
@@ -5839,8 +5843,6 @@ a.close.disabled {
   }
 }
 
-
-
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -5856,6 +5858,15 @@ a.close.disabled {
 .active.carousel-item-left {
   transform: translateX(-100%);
 }
+
+/* 
+Forces carousel image to be 100% width and not max width of 100% 
+*/
+.carousel-item .img-fluid { 
+  width:100%; 
+  height:100%; 
+}
+
 
 .carousel-fade .carousel-item {
   opacity: 0;
